@@ -1,49 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Engine_Marc.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{50BE6232-F0A0-44B0-AF13-4A306324C0A6}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Engine_Marc.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Engine_MarcEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{EEFA5A75-C690-46B7-AFA5-F35C586FF3E7}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Engine_Marc">
-			<UniqueIdentifier>{940DD51D-2352-471E-B3D9-31E0E1CFA51B}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Engine_Marc\Engine_Marc.Build.cs">
-			<Filter>Source\Engine_Marc</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Engine_Marc\Engine_Marc.cpp">
-			<Filter>Source\Engine_Marc</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Engine_Marc\Engine_Marc.h">
-			<Filter>Source\Engine_Marc</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Engine_Marc\FloatingActor.cpp">
-			<Filter>Source\Engine_Marc</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Engine_Marc\FloatingActor.h">
-			<Filter>Source\Engine_Marc</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Engine_Marc.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{50BE6232-F0A0-44B0-AF13-4A306324C0A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Engine_Marc.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Engine_MarcEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EEFA5A75-C690-46B7-AFA5-F35C586FF3E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Engine_Marc">
+      <UniqueIdentifier>{940DD51D-2352-471E-B3D9-31E0E1CFA51B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Engine_Marc\Engine_Marc.Build.cs">
+      <Filter>Source\Engine_Marc</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Engine_Marc\Engine_Marc.cpp">
+      <Filter>Source\Engine_Marc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Engine_Marc\Engine_Marc.h">
+      <Filter>Source\Engine_Marc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Engine_Marc\FloatingActor.cpp">
+      <Filter>Source\Engine_Marc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Engine_Marc\FloatingActor.h">
+      <Filter>Source\Engine_Marc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Engine_Marc\CameraDirector.h">
+      <Filter>Source\Engine_Marc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Engine_Marc\CameraDirector.cpp">
+      <Filter>Source\Engine_Marc</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
