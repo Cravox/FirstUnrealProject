@@ -23,12 +23,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnyWhere)
-	AActor* CameraOne;
-
-	UPROPERTY(EditAnyWhere)
-	AActor* CameraTwo;
-
-	UPROPERTY(EditAnyWhere, meta = (ClampMin = "1", ClampMax = "20"))
-	float TimeToNextCameraChange;
+	//UPROPERTY(EditAnyWhere)
+	//AActor* CameraOne;
+	//
+	//UPROPERTY(EditAnyWhere)
+	//AActor* CameraTwo;
+	//
+	//UPROPERTY(EditAnyWhere, meta = (ClampMin = "1", ClampMax = "20"))
+	//float TimeToNextCameraChange;
 };

@@ -1,58 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Engine_Marc.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{50BE6232-F0A0-44B0-AF13-4A306324C0A6}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Engine_Marc.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\Engine_MarcEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{EEFA5A75-C690-46B7-AFA5-F35C586FF3E7}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Engine_Marc">
-      <UniqueIdentifier>{940DD51D-2352-471E-B3D9-31E0E1CFA51B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Engine_Marc\Engine_Marc.Build.cs">
-      <Filter>Source\Engine_Marc</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Engine_Marc\Engine_Marc.cpp">
-      <Filter>Source\Engine_Marc</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Engine_Marc\Engine_Marc.h">
-      <Filter>Source\Engine_Marc</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Engine_Marc\FloatingActor.cpp">
-      <Filter>Source\Engine_Marc</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Engine_Marc\FloatingActor.h">
-      <Filter>Source\Engine_Marc</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Engine_Marc\CameraDirector.h">
-      <Filter>Source\Engine_Marc</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Engine_Marc\CameraDirector.cpp">
-      <Filter>Source\Engine_Marc</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Engine_Marc.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A06D98D1-CE29-4439-B714-38E4BE7B3DCA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Engine_Marc.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Engine_MarcEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E482723C-3091-4AE4-9625-901704289BC0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{59E57F3F-D3AC-4341-B871-7EC2E4B9FF12}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\MyPlugin">
+			<UniqueIdentifier>{8CBDC869-B003-4877-95E4-317F27A5E404}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\MyPlugin\Source">
+			<UniqueIdentifier>{EAF9FD3F-2DD2-46E8-9718-6FA0F83F5FD6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\MyPlugin\Source\BlueprintExtensions">
+			<UniqueIdentifier>{616F9016-E52D-49A6-994C-90BE7719D5DF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\BlueprintExtensions.build.cs">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions</Filter>
+		</None >
+		<Filter Include="Plugins\MyPlugin\Source\BlueprintExtensions\Private">
+			<UniqueIdentifier>{4367B57D-C826-4033-8FA5-AA95A5F68B07}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\Private\BlueprintExtensions.cpp">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\Private\BlueprintExtensionsModule.cpp">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\Private\BlueprintExtensionsModule.h">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\Private\BlueprintExtensionsPCH.h">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\MyPlugin\Source\BlueprintExtensions\Public">
+			<UniqueIdentifier>{1B4B6E73-F48C-49F3-989B-3B591D02E6AD}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\Public\BlueprintExtensions.h">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\MyPlugin\Source\BlueprintExtensions\Public\IBlueprintExtensionsModule.h">
+			<Filter>Plugins\MyPlugin\Source\BlueprintExtensions\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
+			<Filter>Plugins\MyPlugin</Filter>
+		</None >
+		<Filter Include="Source\Engine_Marc">
+			<UniqueIdentifier>{C156353D-E415-43ED-870F-E0B91884AC11}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Engine_Marc\CameraDirector.cpp">
+			<Filter>Source\Engine_Marc</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Engine_Marc\CameraDirector.h">
+			<Filter>Source\Engine_Marc</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Engine_Marc\Engine_Marc.Build.cs">
+			<Filter>Source\Engine_Marc</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Engine_Marc\Engine_Marc.cpp">
+			<Filter>Source\Engine_Marc</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Engine_Marc\Engine_Marc.h">
+			<Filter>Source\Engine_Marc</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Engine_Marc\FloatingActor.cpp">
+			<Filter>Source\Engine_Marc</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Engine_Marc\FloatingActor.h">
+			<Filter>Source\Engine_Marc</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

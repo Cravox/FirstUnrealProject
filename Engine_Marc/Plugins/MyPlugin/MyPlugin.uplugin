@@ -1,0 +1,19 @@
+{
+	"FileVersion"       : 3,
+	"FriendlyName"      : "MyFirstPlugin",
+	"Version"           : 1,
+	"VersionName"       : "1.0",
+	"Description"       : "Blueprint Extension",
+	"Category"          : "GA.BlueprintExtension",
+	"CreatedBy"         : "Me",
+	"CreatedByURL"      : "games-academy.de",
+	"CanContainContent" : "false",
+	"Modules"           :
+	[
+	   {
+		"Name" : "BlueprintExtensions",
+		"Type" : "Runtime",
+		"LoadingPhase" : "PreDefault"
+	   }
+	]
+} 
